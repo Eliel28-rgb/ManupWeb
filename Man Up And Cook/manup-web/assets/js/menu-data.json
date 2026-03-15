@@ -1,0 +1,22 @@
+{
+  "specials": {
+    "name": "The Truffle Bomb",
+    "description": "Doble carne premium, queso provolone, mayonesa de trufa negra y cebollas caramelizadas en vino tinto.",
+    "price": "RD$ 575",
+    "image": "assets/img/products/special.webp"
+  },
+  "burgers": [
+    { 
+      "name": "Classic Man", 
+      "price": 450, 
+      "desc": "La clásica con el toque secreto de la casa.", 
+      "image": "assets/img/products/burger1.webp" 
+    },
+    { 
+      "name": "Crispy Bomba", 
+      "price": 525, 
+      "desc": "Pollo extra crujiente con salsa spicy.", 
+      "image": "assets/img/products/bomba1.webp" 
+    }
+  ]
+}

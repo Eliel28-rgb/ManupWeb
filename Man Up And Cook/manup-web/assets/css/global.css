@@ -1,0 +1,48 @@
+/* assets/css/global.css */
+:root {
+    --primary-color: #FF4500; /* Naranja rojizo vibrante */
+    --dark-bg: #121212;
+    --text-light: #f4f4f4;
+    --accent-gold: #FFD700;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text-light);
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Bangers', cursive; /* Tipografía estilo comic/urbano */
+    letter-spacing: 2px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Botón llamativo */
+.btn-primary {
+    background: var(--primary-color);
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+/* Responsive Grid para el Menú */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
